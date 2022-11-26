@@ -15,7 +15,7 @@ export default function Sidebar() {
             value=""
             id="flexCheckDefault"
           />
-          <label className="form-check-label" for="flexCheckDefault">
+          <label className="form-check-label" htmlFor="flexCheckDefault">
             Brand X
           </label>
         </div>
@@ -27,7 +27,7 @@ export default function Sidebar() {
             id="flexCheckChecked"
             checked
           />
-          <label className="form-check-label" for="flexCheckChecked">
+          <label className="form-check-label" htmlFor="flexCheckChecked">
             Brand Y
           </label>
         </div>
@@ -38,7 +38,7 @@ export default function Sidebar() {
             value=""
             id="flexCheckDefault"
           />
-          <label className="form-check-label" for="flexCheckDefault">
+          <label className="form-check-label" htmlFor="flexCheckDefault">
             Brand X
           </label>
         </div>
@@ -50,7 +50,7 @@ export default function Sidebar() {
             id="flexCheckChecked"
             checked
           />
-          <label className="form-check-label" for="flexCheckChecked">
+          <label className="form-check-label" htmlFor="flexCheckChecked">
             Brand Y
           </label>
         </div>
@@ -61,7 +61,7 @@ export default function Sidebar() {
             value=""
             id="flexCheckDefault"
           />
-          <label className="form-check-label" for="flexCheckDefault">
+          <label className="form-check-label" htmlFor="flexCheckDefault">
             Brand X
           </label>
         </div>
@@ -73,7 +73,7 @@ export default function Sidebar() {
             id="flexCheckChecked"
             checked
           />
-          <label className="form-check-label" for="flexCheckChecked">
+          <label className="form-check-label" htmlFor="flexCheckChecked">
             Brand Y
           </label>
         </div>
