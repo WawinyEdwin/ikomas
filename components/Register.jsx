@@ -64,15 +64,15 @@ export default function Register() {
                   </div>
                 </form>
                 <div className="">
-                  <p>
+                  <small>
                     By creating an account, you agree to ikomas's{" "}
-                    <a href="">Conditions of use</a> and{" "}
-                    <a href="">Privacy Notice</a>
-                  </p>
+                    <Link href="">Conditions of use</Link> and{" "}
+                    <Link href="">smallrivacy Notice</Link>
+                  </small>
                 </div>
                 <hr />
                 <p>
-                  Already have an account? <a href="/login">Signin</a>
+                  Already have an account? <Link href="/login">Signin</Link>
                 </p>
               </div>
             </div>

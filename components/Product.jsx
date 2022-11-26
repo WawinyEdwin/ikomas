@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Product() {
@@ -52,17 +53,19 @@ export default function Product() {
       <div className="purchase_card col">
         <div className="card">
           <div className="card-body text-center justify-content-center">
-            <a href="/cart" className="btn btn-warning w-100">
-              Add to Cart
-            </a>
+            <Link href={"/cart"}>
+              <small className="btn btn-warning w-100">Add to Cart</small>
+            </Link>
             <br /> <br />
-            <a href="/" className="btn btn-primary w-100">
-              See Similar Items.
-            </a>
+            <Link href={"/cart"}>
+              <small className="btn btn-primary w-100">
+                See Similar Items.
+              </small>
+            </Link>
             <br /> <br />
-            <a href="/" className="btn btn-info w-100">
-              Checkout
-            </a>
+            <Link href={"/cart"}>
+              <small className="btn btn-info w-100">Checkout</small>
+            </Link>
           </div>
         </div>
       </div>

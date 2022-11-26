@@ -32,9 +32,9 @@ export default function Login() {
                       id=""
                       className="form-control"
                     />
-                    <small className="text-right">
-                      <a href="/forgot">Forgot Password?</a>
-                    </small>
+                    <Link href="/forgot">
+                      <small className="text-right">Forgot Password?</small>
+                    </Link>
                   </div>
                   <div className="">
                     <button type="submit" className="btn auth_button w-100">
@@ -45,8 +45,8 @@ export default function Login() {
                 <div className="">
                   <small>
                     By signing in, you agree to ikomas's{" "}
-                    <a href="">Conditions of use</a> and{" "}
-                    <a href="">smallrivacy Notice</a>
+                    <Link href="">Conditions of use</Link> and{" "}
+                    <Link href="">smallrivacy Notice</Link>
                   </small>
                 </div>
                 <hr />

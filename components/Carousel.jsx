@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Carousel() {
@@ -9,17 +10,41 @@ export default function Carousel() {
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="/4.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-item active">
+            <Image
+              src="/4.jpg"
+              class="d-block w-100"
+              alt="..."
+              height={400}
+              width={400}
+            />
           </div>
           <div class="carousel-item ">
-            <img src="/1.jpg" class="d-block w-100" alt="..." />
+            <Image
+              src="/1.jpg"
+              class="d-block w-100"
+              alt="..."
+              height={400}
+              width={400}
+            />
           </div>
           <div class="carousel-item">
-            <img src="/2.jpg" class="d-block w-100" alt="..." />
+            <Image
+              src="/2.jpg"
+              class="d-block w-100"
+              alt="..."
+              height={400}
+              width={400}
+            />
           </div>
           <div class="carousel-item">
-            <img src="/3.jpg" class="d-block w-100" alt="..." />
+            <Image
+              src="/3.jpg"
+              class="d-block w-100"
+              alt="..."
+              height={400}
+              width={400}
+            />
           </div>
         </div>
         <button

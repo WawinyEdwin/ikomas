@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Footer() {
@@ -12,26 +13,20 @@ export default function Footer() {
               <h5>
                 <b>Get to Know Us</b>
               </h5>
-              <li>
-                <a href="/" className="text-white">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  About Amakon
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  Investor Relations
-                </a>
-              </li>
+              <Link href="/">
+                <li className="text-white">Careers</li>
+              </Link>
+              <Link href="/">
+                <li className="text-white">Blog</li>
+              </Link>
+
+              <Link href="/">
+                <li className="text-white">About Amakon</li>
+              </Link>
+
+              <Link href="/">
+                <li className="text-white">Investor Relations</li>
+              </Link>
             </ul>
           </div>
           <div className="col">
@@ -39,28 +34,22 @@ export default function Footer() {
               <h5>
                 <b>Make Money With Us</b>
               </h5>
-              <li>
-                <a href="/" className="text-white">
-                  Sell products on Amakon
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a href="/" className="text-white">
-                  Sell on Amazon Business
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a href="/" className="text-white">
-                  Become an Affiliate
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  Advertise Your Products
-                </a>
-              </li>
+              <Link href="/">
+                <li className="text-white">Sell products on Amakon</li>
+              </Link>
+
+              <Link href="/">
+                <li className="text-white">Sell on Amazon Business</li>
+              </Link>
+
+              <Link href="/">
+              
+                <li className="text-white">Become an Affiliate</li>
+              </Link>
+
+              <Link href="/">
+                <li className="text-white">Advertise Your Products</li>
+              </Link>
             </ul>
           </div>
           <div className="col">
@@ -68,26 +57,18 @@ export default function Footer() {
               <h5>
                 <b>Amakon Payment Products</b>
               </h5>
-              <li>
-                <a href="/" className="text-white">
-                  ikomas Business Card{" "}
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  Shop With Points
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  Reload your Balance
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  ikomas currency convertor
-                </a>
-              </li>
+              <Link href="/">
+                <li className="text-white">ikomas Business Card</li>
+              </Link>
+              <Link href="/">
+                <li className="text-white">Shop With Points</li>
+              </Link>
+              <Link href="/">
+                <li className="text-white">Reload your Balance</li>
+              </Link>
+              <Link href="/">
+                <li className="text-white">ikomas currency convertor</li>
+              </Link>
             </ul>
           </div>
           <div className="col">
@@ -95,31 +76,21 @@ export default function Footer() {
               <h5>
                 <b>Let us help you.</b>
               </h5>
-              <li>
-                <a href="/" className="text-white">
-                  Your Account
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  Your Orders
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  Shipping Rates and Policies.
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  Returns &amp; Policies
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-white">
-                  Help
-                </a>
-              </li>
+              <Link href="/">
+                <li className="text-white">Your Account</li>
+              </Link>
+              <Link href="/">
+                <li className="text-white">Your Orders</li>
+              </Link>
+              <Link href="/">
+                <li className="text-white">Shipping Rates and Policies.</li>
+              </Link>
+              <Link href="/">
+                <li className="text-white">Returns &amp; Policies</li>
+              </Link>
+              <Link href="/">
+                <li className="text-white">Help</li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -127,22 +98,17 @@ export default function Footer() {
       <hr />
       <div className="container">
         <div className="text-center d-flex justify-content-center text-white">
-          <a className="btn btn-link text-white ml-2" href="/">
-            Amakon
-          </a>
-          <a className="btn btn-link text-white" href="/">
+          <h5 className="btn btn-link text-white ml-2">Amakon</h5>
+          <h5 className="btn btn-link text-white">
             <select name="" id="" className="form-select">
               <option value="EN">EN</option>
               <option value="EN">EN</option>
               <option value="EN">EN</option>
             </select>
-          </a>
-          <a href="/" className="btn btn-link text-white">
-            USD - US Dollar
-          </a>
-          <a href="/" className="btn btn-link  text-white">
-            Kenya
-          </a>
+          </h5>
+
+          <h5 className="btn btn-link text-white">USD - US Dollar</h5>
+          <h5 className="btn btn-link  text-white">Kenya</h5>
         </div>
       </div>
     </footer>

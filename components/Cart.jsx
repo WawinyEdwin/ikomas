@@ -9,6 +9,7 @@ export default function Cart() {
           <Image
             src={"/cart.svg"}
             height={400}
+            alt="something"
             width={400}
             className="d-none d-lg-flex"
           />
@@ -17,12 +18,12 @@ export default function Cart() {
           <div className="text-center pt-5 pb-4">
             <h1>Your Cart is Empty</h1>
             <p>
-              <a href="/">Shop Today's Deals.</a>
+              <Link href="/">Shop Today's Deals.</Link>
             </p>
             <div className="text-center">
-              <a href="/signup" className="btn auth_button">
+              <Link href="/signup" className="btn auth_button">
                 Sign In to Your Account
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -35,6 +36,7 @@ export default function Cart() {
             src={"/cart.svg"}
             height={400}
             width={400}
+            alt="something"
             className="d-none d-lg-flex"
           />
         </div>
@@ -50,8 +52,9 @@ export default function Cart() {
               <select className="">
                 <option>Qty-1</option>
               </select>{" "}
-              | <a href="/">Delete</a> | <a href="/">Save for Later</a> |{" "}
-              <a href="/">Compare with similar Items</a>
+              | <Link href="/">Delete</Link> |{" "}
+              <Link href="/">Save for Later</Link> |{" "}
+              <Link href="/">Compare with similar Items</Link>
             </p>
           </div>
         </div>
@@ -60,9 +63,9 @@ export default function Cart() {
             <div className="card-body">
               <div className="text-center">
                 <h5>SubTotal(1 item): 2334</h5>
-                <a href="/checkout" className="btn btn-warning">
+                <Link href="/checkout" className="btn btn-warning">
                   <small>Proceed To CheckOut</small>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -80,15 +83,21 @@ export default function Cart() {
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card">
-            <img src="/3.jpg" class="card-img-top" alt="..." />
+            <Image
+              src="/3.jpg"
+              class="card-img-top"
+              alt="..."
+              height={400}
+              width={400}
+            />
             <div class="card-body">
-              <a href="/product">
+              <Link href="/product">
                 <p class="card-text pt-5">
                   10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
                   512GB), 8000mAh, FHD+ Display, WiFi Android 11 Tablet, Space
                   Gray
                 </p>
-              </a>
+              </Link>
               <span>
                 <i class="bi bi-star"></i>
                 <i class="bi bi-star"></i>
@@ -102,7 +111,13 @@ export default function Cart() {
         </div>
         <div class="col">
           <div class="card">
-            <img src="/3.jpg" class="card-img-top" alt="..." />
+            <Image
+              src="/3.jpg"
+              class="card-img-top"
+              alt="..."
+              height={400}
+              width={400}
+            />
             <div class="card-body">
               <p class="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
@@ -122,7 +137,13 @@ export default function Cart() {
         </div>
         <div class="col">
           <div class="card">
-            <img src="/3.jpg" class="card-img-top" alt="..." />
+            <Image
+              src="/3.jpg"
+              class="card-img-top"
+              alt="..."
+              height={400}
+              width={400}
+            />
             <div class="card-body">
               <p class="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
@@ -142,7 +163,13 @@ export default function Cart() {
         </div>
         <div class="col">
           <div class="card">
-            <img src="/3.jpg" class="card-img-top" alt="..." />
+            <Image
+              src="/3.jpg"
+              class="card-img-top"
+              alt="..."
+              height={400}
+              width={400}
+            />
             <div class="card-body">
               <p class="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
@@ -165,7 +192,13 @@ export default function Cart() {
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card">
-            <img src="/3.jpg" class="card-img-top" alt="..." />
+            <Image
+              src="/3.jpg"
+              class="card-img-top"
+              alt="..."
+              height={400}
+              width={400}
+            />
             <div class="card-body">
               <p class="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
@@ -185,7 +218,13 @@ export default function Cart() {
         </div>
         <div class="col">
           <div class="card">
-            <img src="/3.jpg" class="card-img-top" alt="..." />
+            <Image
+              src="/3.jpg"
+              class="card-img-top"
+              alt="..."
+              height={400}
+              width={400}
+            />
             <div class="card-body">
               <p class="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
@@ -205,7 +244,13 @@ export default function Cart() {
         </div>
         <div class="col">
           <div class="card">
-            <img src="/3.jpg" class="card-img-top" alt="..." />
+            <Image
+              src="/3.jpg"
+              class="card-img-top"
+              alt="..."
+              height={400}
+              width={400}
+            />
             <div class="card-body">
               <p class="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
@@ -225,7 +270,13 @@ export default function Cart() {
         </div>
         <div class="col">
           <div class="card">
-            <img src="/3.jpg" class="card-img-top" alt="..." />
+            <Image
+              src="/3.jpg"
+              class="card-img-top"
+              alt="..."
+              height={400}
+              width={400}
+            />
             <div class="card-body">
               <p class="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to

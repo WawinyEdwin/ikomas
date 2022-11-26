@@ -30,23 +30,25 @@ export default function Navbar() {
 
   return (
     <>
-      <nav
-        className="navbar navbar-expand-lg"
-        style={{ backround: "#252b3f" }}
-      >
+      <nav className="navbar navbar-expand-lg" style={{ backround: "#252b3f" }}>
         <div className="container">
-          <a className="navbar-brand text-white" href="/">
-            <small>ikomas</small>
-          </a>
+          <Link href="/">
+            <small className="navbar-brand text-white">ikomas</small>
+          </Link>
+
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/">
-                <i class="bi bi-geo-alt lg"></i>{" "}
-                <small style={{ fontSize: "10px" }}>
-                  Deliver <br />
-                </small>{" "}
-                to Kenya.
-              </a>
+              <Link href="/">
+                <small
+                  style={{ fontSize: "10px" }}
+                  className="nav-link"
+                  aria-current="page"
+                  href="/"
+                >
+                  <i class="bi bi-geo-alt lg"></i> Deliver <br />
+                  to Kenya.
+                </small>
+              </Link>
             </li>
           </ul>
           <button
@@ -73,11 +75,11 @@ export default function Navbar() {
               </button>
               <ul class="dropdown-menu">
                 {categories.map((cat) => {
-                  <li key={cat.id} id={cat.id}>
-                    <a class="dropdown-item" href="#">
+                  <Link href={""}>
+                    <li key={cat.id} id={cat.id} class="dropdown-item">
                       {cat.name}
-                    </a>
-                  </li>;
+                    </li>
+                  </Link>;
                 })}
               </ul>
               <input
@@ -91,7 +93,7 @@ export default function Navbar() {
             </div>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item dropdown">
-                <a
+                <small
                   className="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
@@ -100,22 +102,22 @@ export default function Navbar() {
                   aria-expanded="false"
                 >
                   <i class="flag flag-india"></i> <small>EN</small>
-                </a>
+                </small>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="#">
-                      FR
-                    </a>
+                    <Link href="/">
+                      <small className="dropdown-item">FR</small>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      SW
-                    </a>
+                    <Link href="/">
+                      <small className="dropdown-item">SW</small>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <small
                   className="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
@@ -125,50 +127,46 @@ export default function Navbar() {
                 >
                   <small style={{ fontSize: "10px" }}>Accounts</small>
                   <br /> &amp; Lists
-                </a>
+                </small>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li className="dropdown-item">
-                    <a
-                      className=" btn dropdown-item auth_button"
-                      href="/signup"
-                    >
-                      SignIn
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Account.
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Orders.
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Browsing History.
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Subscribe & Save Items.
-                    </a>
-                  </li>
+                  <Link href="/signup">
+                    <li className="dropdown-item auth_button btn ">SignIn</li>
+                  </Link>
+                  <Link href={"/account"}>
+                    <li className="dropdown-item">Account.</li>
+                  </Link>
+
+                  <Link href={"/orders"}>
+                    <li className="dropdown-item">Orders.</li>
+                  </Link>
+
+                  <Link href={"/browse"}>
+                    <li className="dropdown-item">Browsing History.</li>
+                  </Link>
+
+                  <Link href={"/subscribe"}>
+                    <li className="dropdown-item">Subscribe & Save Items.</li>
+                  </Link>
                 </ul>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
-                  <small style={{ fontSize: "10px" }}>Returns</small>
-                  <br />
-                  Orders
-                </a>
+                <Link href={"/returns-orders"}>
+                  <small className="nav-link" aria-current="page" href="#">
+                    Returns
+                    <br />
+                    Orders
+                  </small>
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/cart">
-                  <i class="bi bi-cart2 xl"></i>
-                  <small>Cart</small>
-                </a>
+                <Link href={"/cart"}>
+                  <small className="nav-link" aria-current="page" href="/cart">
+                    <i class="bi bi-cart2 xl"></i>
+                    Cart
+                  </small>
+                </Link>
               </li>
             </ul>
           </div>
@@ -180,9 +178,9 @@ export default function Navbar() {
             <i class="bi bi-list"></i> All
           </li>
           {featured.map((ft, index) => {
-            <li key={index}>
-              <a href="/category/Today Deals">{ft}</a>
-            </li>;
+            <Link href={"/category/Today-Deals"}>
+              <li key={index}>{ft}</li>
+            </Link>;
           })}
         </ul>
       </div>
