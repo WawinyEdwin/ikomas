@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Register() {
@@ -65,7 +66,7 @@ export default function Register() {
                 </form>
                 <div className="">
                   <small>
-                    By creating an account, you agree to ikomas's{" "}
+                    By creating an account, you agree to ikomas&apos;s{" "}
                     <Link href="">Conditions of use</Link> and{" "}
                     <Link href="">smallrivacy Notice</Link>
                   </small>

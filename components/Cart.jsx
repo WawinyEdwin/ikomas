@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Cart() {
@@ -18,7 +19,7 @@ export default function Cart() {
           <div className="text-center pt-5 pb-4">
             <h1>Your Cart is Empty</h1>
             <p>
-              <Link href="/">Shop Today's Deals.</Link>
+              <Link href="/">Shop Today&apos;s Deals.</Link>
             </p>
             <div className="text-center">
               <Link href="/signup" className="btn auth_button">
@@ -74,113 +75,113 @@ export default function Cart() {
       <small>
         **The price and availability of items at Amazon.com are subject to
         change. The Cart is a temporary place to store a list of your items and
-        reflects each item's most recent price. Shopping CartLearn more Do you
-        have a gift card or promotional code? We'll ask you to enter your claim
-        code when it's time to pay.
+        reflects each item&apos;s most recent price. Shopping CartLearn more Do you
+        have a gift card or promotional code? We&apos;ll ask you to enter your claim
+        code when it&apos;s time to pay.
       </small>
       <hr />
       <h1>Customers Who Bought This Item also bought..</h1>
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col">
-          <div class="card">
+      <div className="row row-cols-1 row-cols-md-4 g-4">
+        <div className="col">
+          <div className="card">
             <Image
               src="/3.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               height={400}
               width={400}
             />
-            <div class="card-body">
+            <div className="card-body">
               <Link href="/product">
-                <p class="card-text pt-5">
+                <p className="card-text pt-5">
                   10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
                   512GB), 8000mAh, FHD+ Display, WiFi Android 11 Tablet, Space
                   Gray
                 </p>
               </Link>
               <span>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
               </span>
               <br />
               <h5>$ 1888 </h5>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div className="col">
+          <div className="card">
             <Image
               src="/3.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               height={400}
               width={400}
             />
-            <div class="card-body">
-              <p class="card-text pt-5">
+            <div className="card-body">
+              <p className="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
                 512GB), 8000mAh, FHD+ Display, WiFi Android 11 Tablet, Space
                 Gray
               </p>
               <span>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
               </span>
               <br />
               <h5>$ 1888 </h5>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div className="col">
+          <div className="card">
             <Image
               src="/3.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               height={400}
               width={400}
             />
-            <div class="card-body">
-              <p class="card-text pt-5">
+            <div className="card-body">
+              <p className="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
                 512GB), 8000mAh, FHD+ Display, WiFi Android 11 Tablet, Space
                 Gray
               </p>
               <span>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
               </span>
               <br />
               <h5>$ 1888 </h5>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div className="col">
+          <div className="card">
             <Image
               src="/3.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               height={400}
               width={400}
             />
-            <div class="card-body">
-              <p class="card-text pt-5">
+            <div className="card-body">
+              <p className="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
                 512GB), 8000mAh, FHD+ Display, WiFi Android 11 Tablet, Space
                 Gray
               </p>
               <span>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
               </span>
               <br />
               <h5>$ 1888 </h5>
@@ -189,105 +190,105 @@ export default function Cart() {
         </div>
       </div>
       <br />
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col">
-          <div class="card">
+      <div className="row row-cols-1 row-cols-md-4 g-4">
+        <div className="col">
+          <div className="card">
             <Image
               src="/3.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               height={400}
               width={400}
             />
-            <div class="card-body">
-              <p class="card-text pt-5">
+            <div className="card-body">
+              <p className="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
                 512GB), 8000mAh, FHD+ Display, WiFi Android 11 Tablet, Space
                 Gray
               </p>
               <span>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
               </span>
               <br />
               <h5>$ 1888 </h5>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div className="col">
+          <div className="card">
             <Image
               src="/3.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               height={400}
               width={400}
             />
-            <div class="card-body">
-              <p class="card-text pt-5">
+            <div className="card-body">
+              <p className="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
                 512GB), 8000mAh, FHD+ Display, WiFi Android 11 Tablet, Space
                 Gray
               </p>
               <span>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
               </span>
               <br />
               <h5>$ 1888 </h5>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div className="col">
+          <div className="card">
             <Image
               src="/3.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               height={400}
               width={400}
             />
-            <div class="card-body">
-              <p class="card-text pt-5">
+            <div className="card-body">
+              <p className="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
                 512GB), 8000mAh, FHD+ Display, WiFi Android 11 Tablet, Space
                 Gray
               </p>
               <span>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
               </span>
               <br />
               <h5>$ 1888 </h5>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div className="col">
+          <div className="card">
             <Image
               src="/3.jpg"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
               height={400}
               width={400}
             />
-            <div class="card-body">
-              <p class="card-text pt-5">
+            <div className="card-body">
+              <p className="card-text pt-5">
                 10.36 inch Android Tablet, TCL TABMAX 10.4, 6GB + 256GB (up to
                 512GB), 8000mAh, FHD+ Display, WiFi Android 11 Tablet, Space
                 Gray
               </p>
               <span>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
               </span>
               <br />
               <h5>$ 1888 </h5>

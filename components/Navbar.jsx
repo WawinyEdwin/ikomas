@@ -45,7 +45,7 @@ export default function Navbar() {
                   aria-current="page"
                   href="/"
                 >
-                  <i class="bi bi-geo-alt lg"></i> Deliver <br />
+                  <i className="bi bi-geo-alt lg"></i> Deliver <br />
                   to Kenya.
                 </small>
               </Link>
@@ -64,16 +64,16 @@ export default function Navbar() {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="input-group">
+            <div className="input-group">
               <button
-                class="btn btn-outline-secondary dropdown-toggle"
+                className="btn btn-outline-secondary dropdown-toggle"
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 All
               </button>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 {categories.map((cat) => {
                   <Link href={""}>
                     <li key={cat.id} id={cat.id} class="dropdown-item">
@@ -84,11 +84,11 @@ export default function Navbar() {
               </ul>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 aria-label="Text input with dropdown button"
               />
               <button className="btn btn-warning">
-                <i class="bi bi-search-heart"></i>
+                <i className="bi bi-search-heart"></i>
               </button>
             </div>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -101,7 +101,7 @@ export default function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <i class="flag flag-india"></i> <small>EN</small>
+                  <i className="flag flag-india"></i> <small>EN</small>
                 </small>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -152,7 +152,7 @@ export default function Navbar() {
 
               <li className="nav-item">
                 <Link href={"/returns-orders"}>
-                  <small className="nav-link" aria-current="page" href="#">
+                  <small className="nav-link" aria-current="page" >
                     Returns
                     <br />
                     Orders
@@ -162,8 +162,8 @@ export default function Navbar() {
 
               <li className="nav-item">
                 <Link href={"/cart"}>
-                  <small className="nav-link" aria-current="page" href="/cart">
-                    <i class="bi bi-cart2 xl"></i>
+                  <small className="nav-link" aria-current="page" >
+                    <i className="bi bi-cart2 xl"></i>
                     Cart
                   </small>
                 </Link>
@@ -175,7 +175,7 @@ export default function Navbar() {
       <div className="div_nav_ul">
         <ul className="nav_ul">
           <li>
-            <i class="bi bi-list"></i> All
+            <i className="bi bi-list"></i> All
           </li>
           {featured.map((ft, index) => {
             <Link href={"/category/Today-Deals"}>

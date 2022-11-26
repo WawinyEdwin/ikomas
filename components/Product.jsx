@@ -6,8 +6,8 @@ export default function Product() {
   return (
     <div className="d-flex pt-4">
       <div className="product_image" style={{ width: "480px" }}>
-        <Image src={"/product.webp"} height={400} width={400} />
-      </div>
+        <Image src={"/product.webp"} height={400} width={400} alt="..." />
+      </div> 
       <div className="product_info col">
         <h2>
           Remmie Fi Personal Care USB Ear Camera | Nose Camera, Throat Camera,

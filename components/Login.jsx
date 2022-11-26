@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import AuthLayout from "./AuthLayout";
 
@@ -44,7 +45,7 @@ export default function Login() {
                 </form>
                 <div className="">
                   <small>
-                    By signing in, you agree to ikomas's{" "}
+                    By signing in, you agree to ikomas&apos;s{" "}
                     <Link href="">Conditions of use</Link> and{" "}
                     <Link href="">smallrivacy Notice</Link>
                   </small>

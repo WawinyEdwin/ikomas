@@ -3,77 +3,77 @@ import React from "react";
 export default function Sidebar() {
   return (
     <div
-      class="d-flex flex-column flex-shrink-0 p-5"
+      className="d-flex flex-column flex-shrink-0 p-5"
       style={{ width: "280px" }}
     >
       <div className="">
         <small>Featured Brand</small>
-        <div class="form-check">
+        <div className="form-check">
           <input
-            class="form-check-input"
+            className="form-check-input"
             type="checkbox"
             value=""
             id="flexCheckDefault"
           />
-          <label class="form-check-label" for="flexCheckDefault">
+          <label className="form-check-label" for="flexCheckDefault">
             Brand X
           </label>
         </div>
-        <div class="form-check">
+        <div className="form-check">
           <input
-            class="form-check-input"
+            className="form-check-input"
             type="checkbox"
             value=""
             id="flexCheckChecked"
             checked
           />
-          <label class="form-check-label" for="flexCheckChecked">
+          <label className="form-check-label" for="flexCheckChecked">
             Brand Y
           </label>
         </div>
-        <div class="form-check">
+        <div className="form-check">
           <input
-            class="form-check-input"
+            className="form-check-input"
             type="checkbox"
             value=""
             id="flexCheckDefault"
           />
-          <label class="form-check-label" for="flexCheckDefault">
+          <label className="form-check-label" for="flexCheckDefault">
             Brand X
           </label>
         </div>
-        <div class="form-check">
+        <div className="form-check">
           <input
-            class="form-check-input"
+            className="form-check-input"
             type="checkbox"
             value=""
             id="flexCheckChecked"
             checked
           />
-          <label class="form-check-label" for="flexCheckChecked">
+          <label className="form-check-label" for="flexCheckChecked">
             Brand Y
           </label>
         </div>
-        <div class="form-check">
+        <div className="form-check">
           <input
-            class="form-check-input"
+            className="form-check-input"
             type="checkbox"
             value=""
             id="flexCheckDefault"
           />
-          <label class="form-check-label" for="flexCheckDefault">
+          <label className="form-check-label" for="flexCheckDefault">
             Brand X
           </label>
         </div>
-        <div class="form-check">
+        <div className="form-check">
           <input
-            class="form-check-input"
+            className="form-check-input"
             type="checkbox"
             value=""
             id="flexCheckChecked"
             checked
           />
-          <label class="form-check-label" for="flexCheckChecked">
+          <label className="form-check-label" for="flexCheckChecked">
             Brand Y
           </label>
         </div>
